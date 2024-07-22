@@ -16,7 +16,7 @@ export default (props) => {
 
     //make a post request to create a new person
     axios
-      .post("http://localhost:8000/api/people", {
+      .post("https://moviereviewz.azurewebsites.net/api/people", {
         firstName,
         lastName,
       })

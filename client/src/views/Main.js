@@ -10,7 +10,7 @@ const Main = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/people")
+      .get("https://moviereviewz.azurewebsites.net/api/people")
       .then((res) => {
         setPeople(res.data);
         setLoaded(true);
